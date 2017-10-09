@@ -38,3 +38,17 @@ makeAllCaps(desserts)
   .then(res => sortWords(res))
   .then(res => console.log(res))
   .catch(error => console.log(error));
+
+// Questions
+
+// 1.) What is .then() used for, and what is .catch() used for?
+
+// .then() is used to consume a successful response, while .catch() is used for unsuccessful ones.
+
+// 2.) What are good use cases for Promises?
+
+// Fetch calls.
+
+// 3.) What other libraries/functions can you find that uses Promises?
+
+// Ajax
